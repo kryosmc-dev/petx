@@ -1,0 +1,147 @@
+# ===================== MascotasX =====================
+economy:
+  enabled: true          # Usa Vault para cobrar las mascotas (si no hay Vault, son gratis)
+auto-summon: true        # Al entrar, invoca la ultima mascota que tenias fuera
+
+titles:
+  buy: "<dark_gray><bold>MENU</bold> | <gray>Comprar"
+  pets: "<dark_gray><bold>MENU</bold> | <gray>Mascotas"
+  data: "<dark_gray><bold>MENU</bold> | <gray>Datos"
+  cosmetics: "<dark_gray><bold>MENU</bold> | <gray>Cosmeticos"
+  levels: "<dark_gray><bold>MENU</bold> | <gray>%pet% (%page%/%pages%)"
+  effects: "<dark_gray><bold>MENU</bold> | <gray>Efectos"
+
+levels:
+  max: 50
+  xp-base: 40                       # XP para subir = xp-base + nivel * xp-per-level
+  xp-per-level: 20
+  xp-multiplier: 1.0                # Multiplicador global de XP por kill
+  damage-bonus-percent-per-level: 2 # +2% de dano por nivel (nivel 8 = +16%)
+  # Recompensas extra por nivel. %player% = jugador. money requiere Vault.
+  rewards:
+    5:
+      description: ["<gray>Dinero extra: <green>$500"]
+      money: 500
+    10:
+      description: ["<gray>Dinero extra: <green>$1,500", "<gray>3 diamantes"]
+      money: 1500
+      commands: ["give %player% diamond 3"]
+    15:
+      description: ["<gray>Dinero extra: <green>$3,000"]
+      money: 3000
+    20:
+      description: ["<gray>5 diamantes", "<gray>Dinero extra: <green>$5,000"]
+      money: 5000
+      commands: ["give %player% diamond 5"]
+    25:
+      description: ["<gray>Dinero extra: <green>$8,000"]
+      money: 8000
+    30:
+      description: ["<gray>1 manzana dorada encantada", "<gray>Dinero extra: <green>$12,000"]
+      money: 12000
+      commands: ["give %player% enchanted_golden_apple 1"]
+    35:
+      description: ["<gray>Dinero extra: <green>$16,000"]
+      money: 16000
+    40:
+      description: ["<gray>1 netherite ingot", "<gray>Dinero extra: <green>$22,000"]
+      money: 22000
+      commands: ["give %player% netherite_ingot 1"]
+    45:
+      description: ["<gray>Dinero extra: <green>$30,000"]
+      money: 30000
+    50:
+      description: ["<gray>2 bloques de netherite", "<gray>Dinero extra: <green>$50,000"]
+      money: 50000
+      commands: ["give %player% netherite_block 2"]
+
+cosmetics:
+  mount-level: 10      # Nivel para poder montar la mascota
+  hat-level: 5         # Nivel para usarla de sombrero
+  max-name-length: 16
+
+# Efectos que la mascota da a su dueno mientras esta invocada.
+# type = clave del efecto de Minecraft (speed, jump_boost, regeneration...)
+effects:
+  speed:
+    type: speed
+    amplifier: 0
+    level: 5
+    icon: SUGAR
+    name: "Velocidad I"
+  jump:
+    type: jump_boost
+    amplifier: 0
+    level: 10
+    icon: RABBIT_FOOT
+    name: "Salto I"
+  night:
+    type: night_vision
+    amplifier: 0
+    level: 15
+    icon: GOLDEN_CARROT
+    name: "Vision nocturna"
+  regen:
+    type: regeneration
+    amplifier: 0
+    level: 20
+    icon: GHAST_TEAR
+    name: "Regeneracion I"
+  fireres:
+    type: fire_resistance
+    amplifier: 0
+    level: 25
+    icon: MAGMA_CREAM
+    name: "Resistencia al fuego"
+  haste:
+    type: haste
+    amplifier: 1
+    level: 30
+    icon: GOLDEN_PICKAXE
+    name: "Prisa II"
+  strength:
+    type: strength
+    amplifier: 0
+    level: 35
+    icon: BLAZE_POWDER
+    name: "Fuerza I"
+  resistance:
+    type: resistance
+    amplifier: 0
+    level: 40
+    icon: IRON_CHESTPLATE
+    name: "Resistencia I"
+  absorption:
+    type: absorption
+    amplifier: 1
+    level: 45
+    icon: GOLDEN_APPLE
+    name: "Absorcion II"
+  speed2:
+    type: speed
+    amplifier: 1
+    level: 50
+    icon: SUGAR
+    name: "Velocidad II"
+
+messages:
+  prefix: "<gold><bold>MASCOTAS</bold> <dark_gray>» "
+  no-pets: "<red>Aun no tienes ninguna mascota. <gray>Compra una con <yellow>/mascotas comprar"
+  bought: "<green>Compraste a <yellow>%pet% <green>por <gold>%price%<green>."
+  already-owned: "<red>Ya tienes esta mascota."
+  no-money: "<red>No tienes suficiente dinero. Cuesta <gold>%price%<red>."
+  summoned: "<green>Invocaste a <yellow>%pet%<green>."
+  stored: "<gray>Guardaste a tu mascota."
+  need-active: "<red>Primero invoca a esta mascota desde el menu de mascotas."
+  level-up: "<yellow>%pet% <green>subio al <gold>nivel %level%<green>!"
+  locked: "<red>Necesitas el nivel <gold>%level% <red>en esta mascota."
+  not-mountable: "<red>Esta mascota no se puede montar."
+  too-big: "<red>Esta mascota es demasiado grande para usarla de sombrero."
+  name-prompt: "<yellow>Escribe el nuevo nombre en el chat <gray>(escribe <white>cancelar <gray>para salir)."
+  name-set: "<green>Tu mascota ahora se llama <yellow>%name%<green>."
+  name-cancel: "<gray>Cambio de nombre cancelado."
+  petted: "<light_purple>Acariciaste a tu mascota."
+  reload: "<green>Configuracion recargada."
+  no-perm: "<red>No tienes permiso."
+  given: "<green>Listo: <yellow>%pet% <green>entregada a <yellow>%player%<green>."
+  usage: "<gray>Uso: <yellow>/mascotas [comprar|guardar]"

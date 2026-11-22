@@ -1,0 +1,16 @@
+name: MascotasX
+version: 1.0.0
+main: me.mascotasx.MascotasX
+api-version: '1.21'
+description: Sistema de mascotas que luchan a tu lado, suben de nivel y tienen cosmeticos unicos.
+softdepend: [Vault]
+commands:
+  mascotas:
+    description: Abre el menu de mascotas
+    aliases: [pets, mascota]
+    usage: /mascotas [comprar|guardar]
+permissions:
+  mascotas.use:
+    default: true
+  mascotas.admin:
+    default: op

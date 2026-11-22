@@ -1,0 +1,484 @@
+# Mascotas de la tienda. page = pagina del menu Comprar, slot = posicion (fila*9+columna).
+# flying: true = vuela (se mueve en 3D). Todas las mascotas se pueden montar.
+# Agrega o quita mascotas libremente (entity = nombre del EntityType de Paper).
+ 
+pets:
+  villager:
+    entity: VILLAGER
+    name: "Aldeano"
+    price: 2500
+    damage: 2
+    icon: VILLAGER_SPAWN_EGG
+    page: 1
+    slot: 10
+  axolotl:
+    entity: AXOLOTL
+    name: "Ajolote"
+    price: 2500
+    damage: 2
+    icon: AXOLOTL_SPAWN_EGG
+    page: 1
+    slot: 11
+  pig:
+    entity: PIG
+    name: "Cerdo"
+    price: 2500
+    damage: 2
+    icon: PIG_SPAWN_EGG
+    page: 1
+    slot: 12
+  bee:
+    entity: BEE
+    name: "Abeja"
+    price: 2500
+    damage: 2
+    icon: BEE_SPAWN_EGG
+    page: 1
+    slot: 13
+    flying: true
+  blaze:
+    entity: BLAZE
+    name: "Blaze"
+    price: 5000
+    damage: 4
+    icon: BLAZE_SPAWN_EGG
+    page: 1
+    slot: 14
+    flying: true
+  slime:
+    entity: SLIME
+    name: "Slime"
+    price: 2500
+    damage: 2
+    icon: SLIME_SPAWN_EGG
+    page: 1
+    slot: 15
+  allay:
+    entity: ALLAY
+    name: "Allay"
+    price: 2500
+    damage: 2
+    icon: ALLAY_SPAWN_EGG
+    page: 1
+    slot: 16
+    flying: true
+  zombie:
+    entity: ZOMBIE
+    name: "Zombie"
+    price: 5000
+    damage: 4
+    icon: ZOMBIE_SPAWN_EGG
+    page: 1
+    slot: 19
+  cow:
+    entity: COW
+    name: "Vaca"
+    price: 2500
+    damage: 2
+    icon: COW_SPAWN_EGG
+    page: 1
+    slot: 20
+  horse:
+    entity: HORSE
+    name: "Caballo"
+    price: 5000
+    damage: 4
+    icon: HORSE_SPAWN_EGG
+    page: 1
+    slot: 21
+  cat:
+    entity: CAT
+    name: "Gato"
+    price: 2500
+    damage: 2
+    icon: CAT_SPAWN_EGG
+    page: 1
+    slot: 22
+  chicken:
+    entity: CHICKEN
+    name: "Gallina"
+    price: 2500
+    damage: 2
+    icon: CHICKEN_SPAWN_EGG
+    page: 1
+    slot: 23
+  sheep:
+    entity: SHEEP
+    name: "Oveja"
+    price: 2500
+    damage: 2
+    icon: SHEEP_SPAWN_EGG
+    page: 1
+    slot: 24
+  llama:
+    entity: LLAMA
+    name: "Llama"
+    price: 5000
+    damage: 4
+    icon: LLAMA_SPAWN_EGG
+    page: 1
+    slot: 25
+  donkey:
+    entity: DONKEY
+    name: "Burro"
+    price: 5000
+    damage: 4
+    icon: DONKEY_SPAWN_EGG
+    page: 1
+    slot: 28
+  spider:
+    entity: SPIDER
+    name: "Arana"
+    price: 5000
+    damage: 4
+    icon: SPIDER_SPAWN_EGG
+    page: 1
+    slot: 29
+  creeper:
+    entity: CREEPER
+    name: "Creeper"
+    price: 5000
+    damage: 4
+    icon: CREEPER_SPAWN_EGG
+    page: 1
+    slot: 30
+  mooshroom:
+    entity: MOOSHROOM
+    name: "Champinaca"
+    price: 2500
+    damage: 2
+    icon: MOOSHROOM_SPAWN_EGG
+    page: 1
+    slot: 31
+  silverfish:
+    entity: SILVERFISH
+    name: "Lepisma"
+    price: 2500
+    damage: 2
+    icon: SILVERFISH_SPAWN_EGG
+    page: 1
+    slot: 32
+  endermite:
+    entity: ENDERMITE
+    name: "Endermite"
+    price: 2500
+    damage: 2
+    icon: ENDERMITE_SPAWN_EGG
+    page: 1
+    slot: 33
+  vex:
+    entity: VEX
+    name: "Vex"
+    price: 5000
+    damage: 4
+    icon: VEX_SPAWN_EGG
+    page: 1
+    slot: 34
+    flying: true
+  phantom:
+    entity: PHANTOM
+    name: "Phantom"
+    price: 5000
+    damage: 4
+    icon: PHANTOM_SPAWN_EGG
+    page: 1
+    slot: 37
+    flying: true
+  witch:
+    entity: WITCH
+    name: "Bruja"
+    price: 5000
+    damage: 4
+    icon: WITCH_SPAWN_EGG
+    page: 1
+    slot: 38
+  snow_golem:
+    entity: SNOW_GOLEM
+    name: "Golem de nieve"
+    price: 2500
+    damage: 2
+    icon: SNOW_GOLEM_SPAWN_EGG
+    page: 1
+    slot: 39
+  evoker:
+    entity: EVOKER
+    name: "Evocador"
+    price: 12000
+    damage: 6
+    icon: EVOKER_SPAWN_EGG
+    page: 1
+    slot: 40
+  vindicator:
+    entity: VINDICATOR
+    name: "Vindicador"
+    price: 5000
+    damage: 4
+    icon: VINDICATOR_SPAWN_EGG
+    page: 1
+    slot: 41
+  pillager:
+    entity: PILLAGER
+    name: "Saqueador"
+    price: 5000
+    damage: 4
+    icon: PILLAGER_SPAWN_EGG
+    page: 1
+    slot: 42
+  skeleton:
+    entity: SKELETON
+    name: "Esqueleto"
+    price: 5000
+    damage: 4
+    icon: SKELETON_SPAWN_EGG
+    page: 1
+    slot: 43
+  fox:
+    entity: FOX
+    name: "Zorro"
+    price: 2500
+    damage: 2
+    icon: FOX_SPAWN_EGG
+    page: 1
+    slot: 46
+  turtle:
+    entity: TURTLE
+    name: "Tortuga"
+    price: 2500
+    damage: 2
+    icon: TURTLE_SPAWN_EGG
+    page: 1
+    slot: 47
+  bogged:
+    entity: BOGGED
+    name: "Pantanoso"
+    price: 5000
+    damage: 4
+    icon: BOGGED_SPAWN_EGG
+    page: 1
+    slot: 48
+  frog:
+    entity: FROG
+    name: "Rana"
+    price: 2500
+    damage: 2
+    icon: FROG_SPAWN_EGG
+    page: 1
+    slot: 49
+  drowned:
+    entity: DROWNED
+    name: "Ahogado"
+    price: 5000
+    damage: 4
+    icon: DROWNED_SPAWN_EGG
+    page: 1
+    slot: 50
+  goat:
+    entity: GOAT
+    name: "Cabra"
+    price: 2500
+    damage: 2
+    icon: GOAT_SPAWN_EGG
+    page: 1
+    slot: 51
+  piglin_brute:
+    entity: PIGLIN_BRUTE
+    name: "Piglin bruto"
+    price: 5000
+    damage: 4
+    icon: PIGLIN_BRUTE_SPAWN_EGG
+    page: 1
+    slot: 52
+  piglin:
+    entity: PIGLIN
+    name: "Piglin"
+    price: 5000
+    damage: 4
+    icon: PIGLIN_SPAWN_EGG
+    page: 2
+    slot: 10
+  zombified_piglin:
+    entity: ZOMBIFIED_PIGLIN
+    name: "Piglin zombificado"
+    price: 5000
+    damage: 4
+    icon: ZOMBIFIED_PIGLIN_SPAWN_EGG
+    page: 2
+    slot: 11
+  strider:
+    entity: STRIDER
+    name: "Strider"
+    price: 5000
+    damage: 4
+    icon: STRIDER_SPAWN_EGG
+    page: 2
+    slot: 12
+  rabbit:
+    entity: RABBIT
+    name: "Conejo"
+    price: 2500
+    damage: 2
+    icon: RABBIT_SPAWN_EGG
+    page: 2
+    slot: 13
+  ocelot:
+    entity: OCELOT
+    name: "Ocelote"
+    price: 2500
+    damage: 2
+    icon: OCELOT_SPAWN_EGG
+    page: 2
+    slot: 14
+  trader_llama:
+    entity: TRADER_LLAMA
+    name: "Llama mercader"
+    price: 5000
+    damage: 4
+    icon: TRADER_LLAMA_SPAWN_EGG
+    page: 2
+    slot: 15
+  magma_cube:
+    entity: MAGMA_CUBE
+    name: "Cubo de magma"
+    price: 2500
+    damage: 2
+    icon: MAGMA_CUBE_SPAWN_EGG
+    page: 2
+    slot: 16
+  breeze:
+    entity: BREEZE
+    name: "Breeze"
+    price: 5000
+    damage: 4
+    icon: BREEZE_SPAWN_EGG
+    page: 2
+    slot: 19
+  zoglin:
+    entity: ZOGLIN
+    name: "Zoglin"
+    price: 12000
+    damage: 6
+    icon: ZOGLIN_SPAWN_EGG
+    page: 2
+    slot: 20
+  skeleton_horse:
+    entity: SKELETON_HORSE
+    name: "Caballo esqueleto"
+    price: 5000
+    damage: 4
+    icon: SKELETON_HORSE_SPAWN_EGG
+    page: 2
+    slot: 21
+  zombie_villager:
+    entity: ZOMBIE_VILLAGER
+    name: "Aldeano zombie"
+    price: 5000
+    damage: 4
+    icon: ZOMBIE_VILLAGER_SPAWN_EGG
+    page: 2
+    slot: 22
+  hoglin:
+    entity: HOGLIN
+    name: "Hoglin"
+    price: 10000
+    damage: 6
+    icon: HOGLIN_SPAWN_EGG
+    page: 2
+    slot: 23
+  panda:
+    entity: PANDA
+    name: "Panda"
+    price: 8000
+    damage: 5
+    icon: PANDA_SPAWN_EGG
+    page: 2
+    slot: 24
+  parrot:
+    entity: PARROT
+    name: "Loro"
+    price: 2500
+    damage: 2
+    icon: PARROT_SPAWN_EGG
+    page: 2
+    slot: 25
+    flying: true
+  wolf:
+    entity: WOLF
+    name: "Lobo"
+    price: 5000
+    damage: 4
+    icon: WOLF_SPAWN_EGG
+    page: 2
+    slot: 28
+  armadillo:
+    entity: ARMADILLO
+    name: "Armadillo"
+    price: 2500
+    damage: 2
+    icon: ARMADILLO_SPAWN_EGG
+    page: 2
+    slot: 29
+  bat:
+    entity: BAT
+    name: "Murcielago"
+    price: 2500
+    damage: 2
+    icon: BAT_SPAWN_EGG
+    page: 2
+    slot: 30
+    flying: true
+  husk:
+    entity: HUSK
+    name: "Husk"
+    price: 5000
+    damage: 4
+    icon: HUSK_SPAWN_EGG
+    page: 2
+    slot: 31
+  stray:
+    entity: STRAY
+    name: "Stray"
+    price: 5000
+    damage: 4
+    icon: STRAY_SPAWN_EGG
+    page: 2
+    slot: 32
+  cave_spider:
+    entity: CAVE_SPIDER
+    name: "Arana de cueva"
+    price: 2500
+    damage: 2
+    icon: CAVE_SPIDER_SPAWN_EGG
+    page: 2
+    slot: 33
+  zombie_horse:
+    entity: ZOMBIE_HORSE
+    name: "Caballo zombie"
+    price: 5000
+    damage: 4
+    icon: ZOMBIE_HORSE_SPAWN_EGG
+    page: 2
+    slot: 34
+  mule:
+    entity: MULE
+    name: "Mula"
+    price: 5000
+    damage: 4
+    icon: MULE_SPAWN_EGG
+    page: 2
+    slot: 37
+  wandering_trader:
+    entity: WANDERING_TRADER
+    name: "Vendedor ambulante"
+    price: 2500
+    damage: 2
+    icon: WANDERING_TRADER_SPAWN_EGG
+    page: 2
+    slot: 38
+  polar_bear:
+    entity: POLAR_BEAR
+    name: "Oso polar"
+    price: 9000
+    damage: 6
+    icon: POLAR_BEAR_SPAWN_EGG
+    page: 2
+    slot: 39
